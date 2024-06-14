@@ -6,3 +6,4 @@ RUN apk update \
         ca-certificates \
         tzdata \
         && update-ca-certificates 2>/dev/null || true
+
